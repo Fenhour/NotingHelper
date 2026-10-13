@@ -1,0 +1,53 @@
+# Private local configuration, data, media and development records
+/.claude/
+/log/
+/assets/
+/video/
+/docs/
+/data/
+/backup/
+/front/tools/
+/tools/extract_character_frames.py
+/tools/highlight_latency_probe.py
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets, runtime state, dictionaries and databases
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+*.jsonl
+*.log
+
+# User-generated notes and source libraries
+NotingHelper-Sources/
+文档资料库/
+正文库/
+legacy-*/
+*-images/
+
+# Local backups and temporary output
+*.tmp
+*.bak
+*.bak-*
+*.polluted-*
+*.wiped-*
+
+# Build dependencies
+node_modules/

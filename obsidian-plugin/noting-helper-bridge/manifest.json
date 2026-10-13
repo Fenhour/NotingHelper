@@ -1,0 +1,10 @@
+{
+  "id": "noting-helper-bridge",
+  "name": "Noting Helper Bridge",
+  "version": "2.5.4",
+  "minAppVersion": "1.4.0",
+  "description": "Provides Markdown block links, PDF page links, and non-destructive highlight overlays for Noting Helper.",
+  "author": "Noting Helper",
+  "isDesktopOnly": true,
+  "css": "styles.css"
+}

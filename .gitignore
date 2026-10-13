@@ -1,7 +1,30 @@
 # Private local configuration, data, media and development records
 /.claude/
 /log/
-/assets/
+# Only referenced runtime icons are public; keep other assets local.
+/assets/*
+!/assets/ui/
+/assets/ui/*
+!/assets/ui/icons/
+/assets/ui/icons/*
+!/assets/ui/icons/check.png
+!/assets/ui/icons/chevron-down.png
+!/assets/ui/icons/chevron-up.png
+!/assets/ui/icons/feather.png
+!/assets/ui/icons/file-text.png
+!/assets/ui/icons/highlighter.png
+!/assets/ui/icons/image.png
+!/assets/ui/icons/languages.png
+!/assets/ui/icons/link.png
+!/assets/ui/icons/palette.png
+!/assets/ui/icons/pen-line.png
+!/assets/ui/icons/pencil.png
+!/assets/ui/icons/plus.png
+!/assets/ui/icons/save.png
+!/assets/ui/icons/settings.png
+!/assets/ui/icons/square-pen.png
+!/assets/ui/icons/triangle-alert.png
+!/assets/ui/icons/x.png
 /video/
 /docs/
 /data/
